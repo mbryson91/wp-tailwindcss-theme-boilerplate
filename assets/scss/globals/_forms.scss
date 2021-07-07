@@ -1,0 +1,39 @@
+.wp-block-contact-form-7-contact-form-selector {
+    @extend .container;
+}
+
+form.wpcf7-form {
+
+    input {
+        height: 40px;
+        padding: 0 10px;
+    }
+    input, textarea {
+        @apply bg-lighterblue;
+        width: 100%;
+        
+    }
+    textarea {
+        padding: 10px;
+    }
+    .wpcf7-submit {
+        width: 100%;
+        @apply bg-brandblue text-white;
+    }
+    label {
+
+        padding: 25px 0 5px 0;
+        display: block;
+    }
+    .wpcf7-response-output {
+        margin: 0 auto;
+        display: block;
+        max-width: 900px;
+        padding: 10px;
+        text-align: center;
+    }
+    .ajax-loader {
+        margin-top: 10px;
+    }
+    
+}

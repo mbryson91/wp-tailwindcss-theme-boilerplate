@@ -1,0 +1,46 @@
+// Add any custom base CSS can go here
+
+
+// Foundation
+// =≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠
+html {
+  @apply antialiased;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+
+  @screen md {
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+a {
+  &:hover {
+      @apply underline;
+  }
+}
+
+
+.wp-block-quote {
+  @apply bg-lightblue p-12;
+}
+
+.share-icons {
+  svg, path {
+      fill: #4E7A88;
+  }
+  svg, .share-icon {
+      height: 25px;
+  }
+}
+
+.tt-background-blue {
+  background: linear-gradient(180deg, #9CB7C0 0%, #9CB7C0 28%, white 28%);
+
+  @screen md {
+      background: linear-gradient(180deg, #9CB7C0 0%, #9CB7C0 49.9999999%, white 50%);
+  }
+}
